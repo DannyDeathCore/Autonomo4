@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    /* Estilos generales para el cuerpo, sin colores de fondo */
+}
+
+header {
+    background-color: #007bff;
+    padding: 15px;
+}
+
+header a {
+    color: white;
+}
+
+main {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #007bff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+footer span {
+    color: white;
+}
+
+/* Estilos específicos para la página de contacto */
+body.contact-page section {
+    background-color: #f8f9fa;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-form {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}

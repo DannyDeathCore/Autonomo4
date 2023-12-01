@@ -29,7 +29,7 @@
                         <a class="nav-link" href="#">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#" id="contacto-link">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -38,10 +38,61 @@
 
     <main role="main" class="container">
         <!-- Contenido principal -->
-        <h1>Bienvenido al Marketplace de Productos Artesanales</h1>
+        <h1 class="mt-4">Bienvenido al Marketplace de Productos Artesanales</h1>
         <p>Explora nuestra selección de productos únicos hechos a mano por talentosos artesanos.</p>
         <!-- Aquí puedes añadir más contenido según la estructura deseada -->
     </main>
+    <body class="contact-page">
+        <!-- ... tu código existente ... -->
+    </body>
+    
+
+    <section id="contacto" style="display: none;">
+        <!-- Sección de contacto -->
+        <div class="container contact-section">
+            <div class="contact-form">
+                <h2>Contacto</h2>
+                <p>¡Contáctanos para obtener más información!</p>
+                
+                <!-- Formulario de contacto -->
+                <form action="procesar_formulario.php" method="post">
+                    <label for="nombre">Nombre*</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required>
+
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" class="form-control">
+
+                    <label for="asunto">Asunto*</label>
+                    <input type="text" id="asunto" name="asunto" class="form-control" required>
+
+                    <label for="mensaje">Mensaje*</label>
+                    <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="aceptar" name="aceptar" required>
+                        <label class="form-check-label" for="aceptar">Acepto la política de privacidad</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h2>Datos de Contacto</h2>
+                <p>Ubicación: Guayaquil, Ecuador</p>
+                <p>Dirección: Av. Principal, Ciudad Artesana</p>
+                <p>Teléfono: +593 123 456 789</p>
+                <p>Email: info@artesaniaecuador.com</p>
+
+                <!-- Imágenes para mejorar la presentación -->
+                <img src="https://media.istockphoto.com/id/182885832/es/foto/cer%C3%A1mica-art.jpg?s=612x612&w=0&k=20&c=bnUDz7K4bWc_vf2pL3GZjUVk0Amo8GAKDvkVLz0635M=" alt="Imagen 1">
+                <img src="https://media.istockphoto.com/id/462453297/es/foto/agitando-bandera-ecuatoriana.jpg?s=612x612&w=0&k=20&c=WIW-lXIyn9vzq43L_ym5i5BAxUHTsTEeHeXzm-4fuss=" alt="Imagen 2">
+            </div>
+        </div>
+    </section>
 
     <footer class="footer mt-auto py-3 bg-light">
         <!-- Pie de página -->
@@ -54,6 +105,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Tu archivo JavaScript personalizado -->
+    <script src="script.js"></script>
 </body>
 </html>
-
