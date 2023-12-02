@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    background-color: #fff5e6; /* Fondo de color crema muy sutil */
+}
+
+header {
+    background-color: #d2b48c; /* Color café claro */
+    padding: 15px;
+}
+
+header a {
+    color: white;
+}
+
+main {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Fondo crema para el contenido principal */
+}
+
+footer {
+    background-color: #d2b48c; /* Color café claro para el pie de página */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+footer span {
+    color: white;
+}
+
+/* Estilos para la sección de contacto */
+#contacto {
+    padding: 40px 0;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
