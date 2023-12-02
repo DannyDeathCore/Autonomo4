@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    background-color: #fff5e6; /* Fondo de color crema muy sutil */
+}
+
+header {
+    background-color: #d2b48c; /* Color café claro */
+    padding: 15px;
+}
+
+header a {
+    color: white;
+}
+
+main {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Fondo crema para el contenido principal */
+}
+
+footer {
+    background-color: #d2b48c; /* Color café claro para el pie de página */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+footer span {
+    color: white;
+}
+
+/* Estilos para las cards de productos */
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px; /* Ajusta la altura de las imágenes */
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
