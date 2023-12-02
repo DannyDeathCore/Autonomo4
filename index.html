@@ -36,70 +36,60 @@
         </nav>
     </header>
 
-    <main role="main" class="container">
-        <!-- Contenido principal -->
-        <h1 class="mt-4">Bienvenido al Marketplace de Productos Artesanales</h1>
-        <p>Explora nuestra selección de productos únicos hechos a mano por talentosos artesanos.</p>
-        <!-- Aquí puedes añadir más contenido según la estructura deseada -->
-    </main>
-    <body class="contact-page">
-        <!-- ... tu código existente ... -->
-    </body>
+    <header>
+        <h1>Bienvenido a nuestro Marketplace de Artesanías</h1>
+        <p>Descubre y compra artesanías únicas hechas a mano.</p>
+    </header>
     
-
-    <section id="contacto" style="display: none;">
-        <!-- Sección de contacto -->
-        <div class="container contact-section">
-            <div class="contact-form">
-                <h2>Contacto</h2>
-                <p>¡Contáctanos para obtener más información!</p>
-                
-                <!-- Formulario de contacto -->
-                <form action="procesar_formulario.php" method="post">
-                    <label for="nombre">Nombre*</label>
-                    <input type="text" id="nombre" name="nombre" class="form-control" required>
-
-                    <label for="email">Email*</label>
-                    <input type="email" id="email" name="email" class="form-control" required>
-
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono" name="telefono" class="form-control">
-
-                    <label for="asunto">Asunto*</label>
-                    <input type="text" id="asunto" name="asunto" class="form-control" required>
-
-                    <label for="mensaje">Mensaje*</label>
-                    <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
-
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="aceptar" name="aceptar" required>
-                        <label class="form-check-label" for="aceptar">Acepto la política de privacidad</label>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary mt-3">Enviar</button>
-                </form>
-            </div>
-
-            <div class="contact-info">
-                <h2>Datos de Contacto</h2>
-                <p>Ubicación: Guayaquil, Ecuador</p>
-                <p>Dirección: Av. Principal, Ciudad Artesana</p>
-                <p>Teléfono: +593 123 456 789</p>
-                <p>Email: info@artesaniaecuador.com</p>
-
-                <!-- Imágenes para mejorar la presentación -->
-                <img src="https://media.istockphoto.com/id/182885832/es/foto/cer%C3%A1mica-art.jpg?s=612x612&w=0&k=20&c=bnUDz7K4bWc_vf2pL3GZjUVk0Amo8GAKDvkVLz0635M=" alt="Imagen 1">
-                <img src="https://media.istockphoto.com/id/462453297/es/foto/agitando-bandera-ecuatoriana.jpg?s=612x612&w=0&k=20&c=WIW-lXIyn9vzq43L_ym5i5BAxUHTsTEeHeXzm-4fuss=" alt="Imagen 2">
-            </div>
+    <section id="featured-products">
+        <h2>Productos destacados</h2>
+    
+        <div class="product">
+            <img src="producto1.jpg" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>Descubre la belleza de este increíble producto artesanal. Ideal para regalos.</p>
+            <p>Precio: $20.00</p>
+            <button>Agregar al carrito</button>
         </div>
+    
+        <div class="product">
+            <img src="producto2.jpg" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>Explora la creatividad detrás de este maravilloso producto hecho a mano.</p>
+            <p>Precio: $25.00</p>
+            <button>Agregar al carrito</button>
+        </div>
+    
+        <!-- Puedes agregar más productos siguiendo la misma estructura -->
     </section>
-
-    <footer class="footer mt-auto py-3 bg-light">
-        <!-- Pie de página -->
-        <div class="container text-center">
-            <span class="text-muted">© 2023 Marketplace Artesanal TES</span>
-        </div>
+    
+    Marketplace, cada pieza cuenta una historia única. Desde joyería hasta decoración para el hogar, cada artículo está cuidadosamente seleccionado para ofrecerte lo mejor de la artesanía.</p>
+    </section>
+    
+    <section id="how-it-works">
+        <h2>¿Cómo funciona?</h2>
+        <p>Explora y compra de manera fácil en nuestro Marketplace:</p>
+        <ol>
+            <li>Descubre productos únicos hechos a mano.</li>
+            <li>Agrega tus favoritos al carrito de compras.</li>
+            <li>Realiza el pago de forma segura.</li>
+            <li>Recibe tus artesanías directamente en tu puerta.</li>
+        </ol>
+    </section>
+    
+    <section id="support-local-artisans">
+        <h2>Apoya a los artesanos locales</h2>
+        <p>Cada compra que realices en nuestro Marketplace contribuye directamente al sustento de artesanos locales. Estás apoyando la creatividad, la tradición y el trabajo artesanal.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Artesanías Marketplace. Todos los derechos reservados.</p>
     </footer>
+    
+                    
+    </body>
+        
+
 
     <!-- Bootstrap JavaScript y dependencias -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
