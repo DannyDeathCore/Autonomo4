@@ -1,10 +1,10 @@
 /* Estilos generales */
 body {
-    /* Estilos generales para el cuerpo, sin colores de fondo */
+    background-color: #fff5e6; /* Fondo de color crema muy sutil */
 }
 
 header {
-    background-color: #007bff;
+    background-color: #d2b48c; /* Color café claro */
     padding: 15px;
 }
 
@@ -16,10 +16,11 @@ main {
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
+    background-color: #f8f9fa; /* Fondo crema para el contenido principal */
 }
 
 footer {
-    background-color: #007bff;
+    background-color: #d2b48c; /* Color café claro para el pie de página */
     padding: 15px;
     margin-top: 20px;
     border-radius: 8px;
@@ -27,31 +28,4 @@ footer {
 
 footer span {
     color: white;
-}
-
-/* Estilos específicos para la página de contacto */
-body.contact-page section {
-    background-color: #f8f9fa;
-}
-
-.contact-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.contact-form {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.contact-info {
-    flex: 1;
-}
-
-.contact-info img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 10px;
 }
