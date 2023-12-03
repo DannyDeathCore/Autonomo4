@@ -30,10 +30,19 @@ footer span {
     color: white;
 }
 
-.titulo2{
+.titulo2 {
     text-align: center;
 }
 
-.titulo1{
+.titulo1 {
     text-align: center;
+}
+
+/* Estilos para productos */
+.card {
+    transition: transform 0.3s ease-in-out; /* Agregamos una transición para suavizar el cambio */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Hacemos que el tamaño de la tarjeta aumente ligeramente en hover */
 }

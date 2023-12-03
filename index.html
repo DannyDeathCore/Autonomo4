@@ -13,7 +13,7 @@
     <header>
         <!-- Barra de navegación Bootstrap -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Marketplace Artesanal</a>
+            <a class="navbar-brand" href="#inicio-link">Marketplace Artesanal</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,64 +41,87 @@
         <p>Descubre y compra artesanías únicas hechas a mano.</p>
     </header>
     
-    <section id="featured-products">
-        <h2>Productos destacados</h2>
+    <section id="featured-products" class="container mt-4">
+        <!-- Sección de Productos -->
+        <h2 class="text-center mb-4">Productos destacados</h2>
     
-        <div class="product">
-            <img src="producto1.jpg" alt="Producto 1">
-            <h3>Producto 1</h3>
-            <p>Descubre la belleza de este increíble producto artesanal. Ideal para regalos.</p>
-            <p>Precio: $20.00</p>
-            <button>Agregar al carrito</button>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/cartera cabuya.webp" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cartera en Cabuya Luna</h5>
+                        <p class="card-text">Bolso de playa cartera en cabuya Luna. Fibras naturales con cuero vegetal.</p>
+                        <p class="card-text">Precio: $19.99</p>
+                        <button class="btn btn-primary">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/sombrero.jpg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sombrero de palma de jipi</h5>
+                        <p class="card-text">Sombrero tradicional panameño de jipi elaborado completamente a mano.</p>
+                        <p class="card-text">Precio: $9.99</p>
+                        <button class="btn btn-primary">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/collar de saraguro.jpg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Collar bordado de Saraguro</h5>
+                        <p class="card-text">Bordado completamente a mano, de excelente calidad tradicional de Saraguro</p>
+                        <p class="card-text">Precio: $4.99</p>
+                        <button class="btn btn-primary">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
         </div>
-    
-        <div class="product">
-            <img src="producto2.jpg" alt="Producto 2">
-            <h3>Producto 2</h3>
-            <p>Explora la creatividad detrás de este maravilloso producto hecho a mano.</p>
-            <p>Precio: $25.00</p>
-            <button>Agregar al carrito</button>
-        </div>
-    
-        <!-- Puedes agregar más productos siguiendo la misma estructura -->
     </section>
     
-    Marketplace, cada pieza cuenta una historia única. Desde joyería hasta decoración para el hogar, cada artículo está cuidadosamente seleccionado para ofrecerte lo mejor de la artesanía.</p>
-    </section>
-    
-    <section id="how-it-works">
-        <h2>¿Cómo funciona?</h2>
-        <p>Explora y compra de manera fácil en nuestro Marketplace:</p>
-        <ol>
-            <li>Descubre productos únicos hechos a mano.</li>
-            <li>Agrega tus favoritos al carrito de compras.</li>
-            <li>Realiza el pago de forma segura.</li>
-            <li>Recibe tus artesanías directamente en tu puerta.</li>
-        </ol>
-    </section>
-    
-    <section id="support-local-artisans">
-        <h2>Apoya a los artesanos locales</h2>
-        <p>Cada compra que realices en nuestro Marketplace contribuye directamente al sustento de artesanos locales. Estás apoyando la creatividad, la tradición y el trabajo artesanal.</p>
-    </section>
-    
-        <!-- Pie de página -->
+        <!-- Nueva sección de premios y reconocimientos -->
+        <section id="awards" class="container mt-4 contact-section">
+            <h2>Premios y Reconocimientos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="images/premio1.png" class="card-img-top" alt="Premio 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Premio a la Artesanía Innovadora</h5>
+                            <p class="card-text">¡Nos enorgullece haber recibido este premio que destaca la innovación en la artesanía!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="images/premio2.jpg" class="card-img-top" alt="Premio 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Reconocimiento por Fomento Cultural</h5>
+                            <p class="card-text">Este reconocimiento nos impulsa a seguir promoviendo la cultura a través de la artesanía.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Pie de página -->
     <footer>
         <div class="container text-center">
             <span class="text-muted">© 2023 Marketplace Artesanal TES</span>
         </div>
     </footer>
-    
-                    
-    </body>
-        
 
     <!-- Bootstrap JavaScript y dependencias -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- JavaScript -->
+    <!-- JavaScript personalizado -->
     <script src="scripts/script.js"></script>
 </body>
 </html>

@@ -1,6 +1,5 @@
 /* Estilos para la sección Sobre Nosotros */
 
-/* Clases Bootstrap y personalizadas */
 .container {
     max-width: 960px;
 }
@@ -10,11 +9,10 @@
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar contenido */
 }
 
 /* Estilos personalizados */
-/* Estilos para la sección Sobre Nosotros */
-/* Estilos para la sección Sobre Nosotros */
 body {
     background-color: #fff5e6; /* Fondo de color crema muy sutil */
 }
@@ -63,9 +61,12 @@ p {
     margin-bottom: 20px;
 }
 
-img {
+iframe {
+    display: block;
+    margin: 0 auto; /* Centrar el video */
     max-width: 100%;
-    height: auto;
+    height: 720;
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
+
