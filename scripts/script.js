@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // Manejar clic en el enlace de "Contacto"
+    
     $("#contacto-link").click(function (event) {
         event.preventDefault();
         $("#content").load("contactos.html");
@@ -16,6 +16,11 @@ $(document).ready(function () {
     });
 
     $("#inicio-link").click(function (event) {
+        event.preventDefault();
+        $("#content").load("index.html");
+    });
+
+    $("#logo-link").click(function (event) {
         event.preventDefault();
         $("#content").load("index.html");
     });
