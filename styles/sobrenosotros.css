@@ -1,0 +1,71 @@
+/* Estilos para la sección Sobre Nosotros */
+
+/* Clases Bootstrap y personalizadas */
+.container {
+    max-width: 960px;
+}
+
+.contact-section {
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos personalizados */
+/* Estilos para la sección Sobre Nosotros */
+/* Estilos para la sección Sobre Nosotros */
+body {
+    background-color: #fff5e6; /* Fondo de color crema muy sutil */
+}
+
+header {
+    background-color: #d2b48c; /* Color café claro */
+    padding: 15px;
+}
+
+header a {
+    color: white;
+}
+
+footer {
+    background-color: #d2b48c; /* Color café claro para el pie de página */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+footer span {
+    color: white;
+}
+
+.contact-section h3 {
+    text-align: center; /* Alineación centrada para los encabezados dentro de la sección */
+}
+
+.contact-section p {
+    text-align: justify; /* Justificación del texto para los párrafos dentro de la sección */
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
